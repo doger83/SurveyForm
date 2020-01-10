@@ -1,0 +1,30 @@
+{
+  "name": "surveyform",
+  "version": "1.0.0",
+  "description": "Survey Form Project of the freecodecam cert",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doger83/SurveyForm.git"
+  },
+  "keywords": [
+    "Survey",
+    "Form",
+    "Project"
+  ],
+  "author": "Dominic Gerweck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doger83/SurveyForm/issues"
+  },
+  "homepage": "https://github.com/doger83/SurveyForm#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

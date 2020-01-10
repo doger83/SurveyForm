@@ -1,21 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
 /*==========================================================================
 Base styles
 ==========================================================================*/
-
 :root {
-  --default-color: yellow;
-}
+  --default-color: yellow; }
 
 html {
-  /*border: 1px solid violet;*/
-}
+  /*border: 1px solid violet;*/ }
 
 header {
   background-color: deepskyblue;
-  border: 1px solid blue;
-}
+  border: 1px solid blue; }
 
 body {
   background-color: #f4f4f4;
@@ -24,130 +19,101 @@ body {
   /*text-align: center;*/
   font: normal 16px Arial, Helvetica, sans-serif;
   line-height: 1.6em;
-  margin: 0;
-}
+  margin: 0; }
 
 a {
   text-decoration: none;
-  color: black;
-}
+  color: black; }
 
-  a:hover {
-    color: orangered;
-  }
+a:hover {
+  color: orangered; }
 
-  a:active {
-    color: green;
-  }
-
-  a:visited {
-    
-  }
+a:active {
+  color: green; }
 
 .container {
   width: 80%;
-  margin: auto;
-}
+  margin: auto; }
 
-.button{
+.button {
   background-color: #333;
   color: white;
   padding: 10px 15px;
-  border: none;  
-}
-.button:hover{
-  background:red;
-  color:#fff;
-}
+  border: none; }
+
+.button:hover {
+  background: red;
+  color: #fff; }
+
 .box-1 {
   background-color: #333;
   color: #fff;
   border: 5px solid red;
   padding: 20px;
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
-  .box-1 h1 {
-    font-family: Tahoma;
-    font-weight: 800;
-    font-style: italic;
-    text-decoration: underline;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    word-spacing: 1em;
-  }
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em; }
 
 .box-2 {
   border: 3px dotted lightgray;
   padding: 20px;
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
 .categories {
   border: 3px solid #ccc;
   padding: 10px;
-  border-radius: 15px;
-}
+  border-radius: 15px; }
 
-  .categories h2 {
-    text-align: center;
-  }
+.categories h2 {
+  text-align: center; }
 
-  .categories ul {
-    padding: 0;
-    padding-left: 45px;
-    list-style: square;
-    list-style: none;
-  }
+.categories ul {
+  padding: 0;
+  padding-left: 45px;
+  list-style: square;
+  list-style: none; }
 
-  .categories li {
-    padding-bottom: 6px;
-    border-bottom: dotted 1px #333;
-    list-style-image: url('../img/checkmark.png');
-  }
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+  list-style-image: url("../img/checkmark.png"); }
 
 .my-form {
   padding: 20px;
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
-  .my-form .form-group {
-    padding-bottom: 15px;
-  }
+.my-form .form-group {
+  padding-bottom: 15px; }
 
-  .my-form label {
-    display: block;
-  }
+.my-form label {
+  display: block; }
 
-  .my-form input[type="text"], .my-form textarea {
-    padding: 8px;
-    width: 100%;
-  }
-
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%; }
 
 @media (max-width: 400px) {
   body {
-    padding: 10px;
-  }
-
+    padding: 10px; }
   .container {
-    width: 100%;
-  }
-
+    width: 100%; }
   .box-1 {
     background-color: slategray;
     color: orangered;
-    border: 3px solid orangered;
-  }
+    border: 3px solid orangered; }
   .my-form {
     padding: 10px;
-    margin-right: 20px;
-  }
-    .box-1 h1 {
-      line-height: 1.5em;
-    }
-}
-
+    margin-right: 20px; }
+  .box-1 h1 {
+    line-height: 1.6em; } }
 
 /*form {
   background-color: violet;
@@ -282,5 +248,3 @@ Media queries
   div {
     background-color: deepskyblue;
     border: 2px solid red;*/
-
-
