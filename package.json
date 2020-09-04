@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/doger83/SurveyForm#readme",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
